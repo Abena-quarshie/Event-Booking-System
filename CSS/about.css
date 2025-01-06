@@ -1,0 +1,83 @@
+body {
+    background: url("Images/GCTU-Logo.jpg");
+    background-size: contain;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #000000;
+    font-weight: bold;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.logo {
+    margin-left: 2%; /* Use percentage for responsiveness */
+}
+
+.abt {
+    margin-left: 15%; /* Adjusted for better responsiveness */
+}
+
+header {
+    background: #01037d;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px; /* Added rounded corners */
+    box-shadow: none;
+}
+
+.about {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em; /* Larger size for emphasis */
+}
+
+h2 {
+    color: #01037d;
+    font-size: 2em; /* Slightly smaller than h1 */
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .abt {
+        margin-left: 5%; /* Less margin on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    h1 {
+        font-size: 2em; /* Smaller heading on mobile */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Smaller subheading on mobile */
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #002147;
+    color: #fff;
+    margin-top: 2rem;
+}

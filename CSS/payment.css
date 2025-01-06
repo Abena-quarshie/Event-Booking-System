@@ -1,0 +1,67 @@
+body {
+    background-image: url(imagees/GCTU\ LOGO.png); /* Add your logo background image */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    background: #01037d;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+h1 {
+    color: #0056b3; /* GCTU color */
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3; /* GCTU color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004494; /* Darker shade on hover */
+}
+
+.hidden {
+    display: none; /* Hide bank details section initially */
+}
+
+#bankDetails {
+    margin-top: 20px;
+}

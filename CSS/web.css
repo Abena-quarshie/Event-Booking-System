@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #01037d;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo-text{
+    margin-left: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img {
+    width: 100px; 
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00aaff; 
+}
+
+#hero h2 {
+    font-size: 3rem; /* Increase font size */
+    font-weight: bold; /* Make it bold */
+    color: #002147; /* Professional dark blue color */
+    text-transform: uppercase; /* Capitalize text for impact */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+#hero p {
+    font-size: 1.5rem; /* Increase paragraph font size */
+    color: #555; /* Softer text color */
+    font-style: italic; /* Make it italic for a stylish effect */
+    margin-top: 0; /* Remove unnecessary top margin */
+}
+
+#hero {
+    background-color: #f4f4f9; /* Light background for contrast */
+    padding: 50px 20px; /* Add padding for spacing */
+    text-align: center; /* Center align the text */
+
+}
+
+
+.carousel img {
+    display: none;
+    width: 100%; 
+}
+
+.carousel img.active {
+    display: block;
+}
+
+#testimonials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    gap: 20px;
+    text-align: center;
+}
+
+.testimonial {
+    flex: 1 1 30%;
+    max-width: 30%;
+    font-size: 14px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #002147;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+
+
+
+.footer-contact a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.footer-services ul {
+    list-style-position: inside; /* Ensure bullets are close to text */
+    padding: 0; /* Remove extra padding */
+    margin: 0; /* Remove extra margin */
+    font-size: 16px; /* Adjust font size for readability */
+}
+
+.footer-services li {
+    display: flex; /* Align bullet and text horizontally */
+    align-items: center; /* Vertically align bullet and text */
+    gap: 5px; /* Space between bullet and text */
+}
+
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #001529;
+    text-align: center;
+    padding: 10px;
+    color: #ccc;
+    font-size: 14px;
+    width: 100%; /* Ensure it spans the full page width */
+    margin: 0; /* Remove any default margins */
+    box-sizing: border-box; /* Include padding in total width */
+}
+
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-icon {
+    width: 20px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 8px; /* Space between icon and text */
+    display: inline-block; /* Ensure it's visible */
+}
